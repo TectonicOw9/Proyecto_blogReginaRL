@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body_index{
+    height: 100vh;
+    background-image: url(flower04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_index{
+    color: rgb(133, 60, 31);
+    text-align: center;
+}
+
+.name01{
+    font-size: 100px;
+}
+
+.p01{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button_index{
+    margin-top: 10px;
+    background-color: rgb(247, 165, 110);
+    color: rgb(134, 71, 46);
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.redes_sociales{
+    background-color: rgb(133, 60, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.redsocial04{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.Menu{
+    background-color:rgb(247, 160, 134);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.menu_options{
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    align-items: center;
+}
+
+.menu_options a{
+text-decoration: none;
+color: #853c1f;
+}
+
+.Logo{
+    height: 40px;
+}
+
+.list_menu{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.Proyecto_inicial{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Proyecto_inicial01{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.animation_image{
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Letra01{
+    color: #853c1f;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Letra02{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Chart{
+    padding: 40px;
+    text-align: center;
+}
+
+.image01{
+    height: 80%;            
+    border-radius: 15px;     
+    max-width: 100%; 
+}
+
+.projects_charts{
+    width: 300px;
+    border: 3px solid rgb(241, 186, 169);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.projects_charts img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.projects_charts h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #853c1f;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: rgb(247, 160, 134);
+    color: #853c1f;
+    text-align: center;
+    padding: 10px 0;
+}
